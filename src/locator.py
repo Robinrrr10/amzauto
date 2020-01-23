@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 
+"This class contains Main Page locator"
 class MainPageLocator(object):
     SEARCH_DROPDOWN_BOX_BOOKS = (By.XPATH, "//select[@id='searchDropdownBox']/option[text()='Books']")
     SEARCH = (By.ID, "twotabsearchtextbox")
@@ -17,6 +18,8 @@ class MainPageLocator(object):
     HARD_COVER = (By.XPATH, ".//*[contains(text(), 'Hardcover')]")
     SEARCH_FIRST_PRODUCT = (By.XPATH, "//*[@id='search']/div[1]/div[2]/div/span[4]/div[1]/div[1]/div/span/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a/span")
 
+
+"This class contains product page locators"
 class ProductPageLocator(object):
     PRODUCT_TITLE = (By.ID, "productTitle")    
     PRODUCT_PRICE = (By.XPATH, "//*[@id='a-autoid-2-announce']/span[2]/span")
