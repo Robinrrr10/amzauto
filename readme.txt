@@ -1,11 +1,11 @@
 README
 ------
 
-Use python 2.7 or more
-Should have selenium library. If not there use below command to install selenium lib
-EG:
-pip install selenium
-
+1. Use python 2.7 or more
+2. Should have selenium library. If not there use below command to install selenium lib
+  EG:
+   pip install selenium
+3. Chrome browser should be installed
 
 To run
 ------
